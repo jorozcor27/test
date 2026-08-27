@@ -17,5 +17,7 @@ namespace Tienda.API.Models
 
         [MaxLength(20)]
         public string? Telefono { get; set; }
+
+
     }
 }

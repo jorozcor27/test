@@ -5,7 +5,7 @@ using Tienda.API.Data;
 namespace TiendaOnline.API.Controllers
 {
     [ApiController]
-    [Route("GestionProveedoresJohanOrozco/[controller]")] 
+    [Route("api/[controller]")] 
     public class ClientesController : ControllerBase
     {
         private readonly TiendaDbContext _context;
